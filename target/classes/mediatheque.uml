@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.mediatheque</OriginalElement>
+  <nodes>
+    <node x="78.0" y="0.0">org.mediatheque.view.Displayable</node>
+    <node x="0.0" y="413.0">org.mediatheque.controller.Main</node>
+    <node x="0.0" y="100.0">org.mediatheque.view.Menu</node>
+    <node x="309.0" y="245.0">org.mediatheque.view.MenuOption</node>
+    <node x="0.0" y="245.0">org.mediatheque.model.MediaItem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.mediatheque.view.Menu" target="org.mediatheque.view.Displayable">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="678.0" y="455.0" />
+  <SelectedNodes>
+    <node>org.mediatheque.view.MenuOption</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,18 +1,20 @@
-package org.mediatheque.model;
+package org.mediatheque.model.item;
 
 import java.util.Date;
 
-public class MediaItem {
+public abstract class MediaItem {
     private int id;
     private String name;
     private String author;
     private Date releaseDate;
+    private Status status;
 
 
-    public MediaItem(int id, String name, String author, Date releaseDate) {
+    public MediaItem(int id, String name, String author, Date releaseDate, Status status) {
         this.id = id;
         this.name = name;
         this.author = author;
+        this.status = status;
     }
 
     public int getId() {
@@ -41,5 +43,13 @@ public class MediaItem {
 
     public void setReleaseDate(Date releaseDate) {
         this.releaseDate = releaseDate;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
     }
 }
